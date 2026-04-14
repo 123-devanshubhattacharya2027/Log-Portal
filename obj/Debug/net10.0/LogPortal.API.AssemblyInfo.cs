@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogPortal.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b23014428b292624ea82f7e728f59340d34e4fce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5d16237466dcf719ba03d82c823eeeede68356")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogPortal.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogPortal.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

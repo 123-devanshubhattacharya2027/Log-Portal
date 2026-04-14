@@ -40,3 +40,4 @@ C:\Users\This PC\OneDrive\Attachments\Documents\Playground\LogPortal.API\obj\Deb
 C:\Users\This PC\OneDrive\Attachments\Documents\Playground\LogPortal.API\obj\Debug\net10.0\LogPortal.API.pdb
 C:\Users\This PC\OneDrive\Attachments\Documents\Playground\LogPortal.API\obj\Debug\net10.0\LogPortal.API.genruntimeconfig.cache
 C:\Users\This PC\OneDrive\Attachments\Documents\Playground\LogPortal.API\obj\Debug\net10.0\ref\LogPortal.API.dll
+C:\Users\This PC\OneDrive\Attachments\Documents\Playground\LogPortal.API\obj\Debug\net10.0\LogPortal.API.sourcelink.json
