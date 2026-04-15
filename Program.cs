@@ -67,17 +67,15 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
 app.MapGet("/health", () => new
 {
     status = "running",
     project = "Log Aggregation + Anomaly Detection Portal",
-    group = "Group 17 - Section 3N",
     timestamp = DateTime.UtcNow
 });
 
 
-app.Urls.Add("http://0.0.0.0:8080");
-
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://0.0.0.0:{port}");
 
 app.Run();
