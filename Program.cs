@@ -20,7 +20,7 @@ builder.Services.AddSingleton<MongoDbContext>();
 
 builder.Services.AddScoped<LogService>();
 builder.Services.AddScoped<AnomalyDetectionService>();
-builder.Services.AddScoped<AlertService>(); 
+builder.Services.AddScoped<AlertService>();
 
 
 builder.Services.AddControllers();
@@ -48,7 +48,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 var app = builder.Build();
 
 
@@ -62,8 +61,10 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+
 app.UseCors("AllowAll");
 app.UseAuthorization();
+
 app.MapControllers();
 
 
@@ -74,5 +75,9 @@ app.MapGet("/health", () => new
     group = "Group 17 - Section 3N",
     timestamp = DateTime.UtcNow
 });
+
+
+app.Urls.Add("http://0.0.0.0:8080");
+
 
 app.Run();

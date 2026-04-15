@@ -85,6 +85,7 @@ namespace LogPortal.API.Services
         }
 
        
+       
         public async Task<object> GetLogStatsAsync()
         {
             var logs = await _context.Logs.Find(_ => true).ToListAsync();
